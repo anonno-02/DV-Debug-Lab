@@ -71,9 +71,9 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/your-github-username/dv-debug-lab
+      link: https://github.com/anonno-02/DV-Debug-Lab/
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/your-linkedin-profile/
+      link: https://www.linkedin.com/in/md-abrar-shahriar-kabir
   generator: false
 
 copyright: Copyright &copy; 2026 DV Debug Lab
@@ -85,8 +85,8 @@ nav:
       - Topic Index: topics.md
       - SystemVerilog:
           - Overview: systemverilog/index.md
-      - UVM Debug:
-          - Overview: uvm-debug/index.md
+      - UVM :
+          - Overview: uvm-/index.md
       - GLS Debug:
           - Overview: gls-debug/index.md
       - CDC & X-Propagation:
