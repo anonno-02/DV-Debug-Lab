@@ -1,0 +1,101 @@
+site_name: DV Debug Lab
+site_description: Practical debug notes, examples, and checklists for SystemVerilog, UVM, GLS, CDC, assertions, coverage, and verification scripting.
+site_author: DV Debug Lab
+site_url: https://your-github-username.github.io/dv-debug-lab/
+
+repo_name: your-github-username/dv-debug-lab
+repo_url: https://github.com/your-github-username/dv-debug-lab
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - content.code.annotate
+    - toc.follow
+  palette:
+    - scheme: default
+      primary: blue grey
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue grey
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  icon:
+    logo: material/chip
+    repo: fontawesome/brands/github
+
+plugins:
+  - search:
+      lang: en
+  - tags
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+      title: On this page
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/your-github-username/dv-debug-lab
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/your-linkedin-profile/
+  generator: false
+
+copyright: Copyright &copy; 2026 DV Debug Lab
+
+nav:
+  - Home: index.md
+  - Start Here: start-here.md
+  - Topics:
+      - Topic Index: topics.md
+      - SystemVerilog:
+          - Overview: systemverilog/index.md
+      - UVM Debug:
+          - Overview: uvm-debug/index.md
+      - GLS Debug:
+          - Overview: gls-debug/index.md
+      - CDC & X-Propagation:
+          - Overview: cdc-xprop/index.md
+      - Assertions & Coverage:
+          - Overview: assertions-coverage/index.md
+      - Regression & Scripting:
+          - Overview: regression-scripting/index.md
+      - Interview Prep:
+          - Overview: interview-prep/index.md
+  - Templates & Downloads: templates-downloads/index.md
+  - Premium Packs: premium-packs/index.md
+  - Blog: blog/index.md
+  - About: about.md
+  - Contact: contact.md
