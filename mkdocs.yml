@@ -3,9 +3,9 @@ site_description: Practical debug notes, examples, and checklists for SystemVeri
 site_author: DV Debug Lab
 site_url: https://anonno-02.github.io/DV-Debug-Lab/
 
-repo_name: anonno-02/DV-Debug-Lab/
-repo_url: https://github.com/anonno-02/DV-Debug-Lab/
-edit_uri: edit/main/docs/
+repo_name: anonno-02/DV-Debug-Lab
+repo_url: https://github.com/anonno-02/DV-Debug-Lab
+edit_uri: ""
 
 theme:
   name: material
@@ -24,14 +24,14 @@ theme:
     - toc.follow
   palette:
     - scheme: default
-      primary: blue grey
-      accent: indigo
+      primary: amber
+      accent: orange
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
     - scheme: slate
       primary: blue grey
-      accent: indigo
+      accent: light blue
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
@@ -68,6 +68,9 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
 
+extra_css:
+  - stylesheets/extra.css
+
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -76,7 +79,7 @@ extra:
       link: https://www.linkedin.com/in/md-abrar-shahriar-kabir
   generator: false
 
-copyright: Copyright &copy; 2026 DV Debug Lab
+copyright: DV Debug Lab &copy; 2026
 
 nav:
   - Home: index.md
@@ -86,7 +89,7 @@ nav:
       - SystemVerilog:
           - Overview: systemverilog/index.md
       - UVM :
-          - Overview: uvm-/index.md
+          - Overview: uvm-debug/index.md
       - GLS Debug:
           - Overview: gls-debug/index.md
       - CDC & X-Propagation:
