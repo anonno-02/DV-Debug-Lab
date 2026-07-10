@@ -25,3 +25,14 @@
 .md-typeset .topic-card-grid > ul > li:focus-within .topic-card-link {
   color: var(--md-accent-fg-color);
 }
+
+@media screen and (max-width: 76.234375em) {
+  .md-header__button.md-logo {
+    display: inline-block;
+    flex-shrink: 0;
+  }
+
+  .md-header__title {
+    min-width: 0;
+  }
+}
